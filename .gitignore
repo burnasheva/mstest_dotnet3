@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MSTestCore
+/PrimeService/bin/Debug/netcoreapp3.0
+/PrimeService/obj/Debug/netcoreapp3.0
+/PrimeService.Tests/bin/Debug/netcoreapp3.0
+/PrimeService.Tests/obj
+/PrimeService/obj
