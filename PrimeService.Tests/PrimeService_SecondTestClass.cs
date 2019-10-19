@@ -6,6 +6,7 @@ namespace Prime.UnitTests.Services
     public class PrimeService_SecondTestClass
     {
         
+        
         [Fact]
         public void PassingTest()
         {
