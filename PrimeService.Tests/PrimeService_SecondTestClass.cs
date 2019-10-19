@@ -10,7 +10,6 @@ namespace Prime.UnitTests.Services
         {
             Assert.Equal(4, Decimal.Add(2, 2));
         }
-
         [Fact]
         public void FailingTest()
         {
