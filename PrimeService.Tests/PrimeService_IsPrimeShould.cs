@@ -25,7 +25,7 @@ namespace Prime.UnitTests.Services
             
             var result = _primeService.IsPrime(1);
 
-            Assert.IsTrue(result, $"1 should not be prime");
+            Assert.IsFalse(result, $"1 should not be prime");
         }
 
         [TestMethod]
