@@ -5,5 +5,3 @@ Some Text
 
 Second change
 !
-!
-!
