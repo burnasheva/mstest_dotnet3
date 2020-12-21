@@ -4,9 +4,5 @@
 Some Text
 Another Text
 Second change
-!
-!
-!
-Change
 
 Another change
