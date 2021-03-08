@@ -17,6 +17,7 @@ namespace Prime.UnitTests.Services
         public TestContext TestContext { get; set; }
 
         [TestMethod]
+        [TestCategory("First category")]
         public void ReturnFalseGivenValueOf1()
         {
             Console.WriteLine("some stdOut text");
@@ -30,6 +31,7 @@ namespace Prime.UnitTests.Services
 
         [TestMethod]
         [Ignore]
+        [TestCategory("First category")]
         public void IgnoredTest()
         {
             Console.WriteLine("some stdOut text");
@@ -42,6 +44,7 @@ namespace Prime.UnitTests.Services
         }
 
         [TestMethod]
+        [TestCategory("simple")]
         public void ReturnFalseGivenValueOf3()
         {            
             Console.WriteLine("some stdOut text");
@@ -54,6 +57,8 @@ namespace Prime.UnitTests.Services
         }
 
         [TestMethod]
+        [Priority(2)]
+        [TestCategory("simple")]
         public void ReturnFalseGivenValueOf2()
         {
             Console.WriteLine("some stdOut text");
