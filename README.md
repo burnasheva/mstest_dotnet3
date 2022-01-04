@@ -11,7 +11,6 @@ Another change
 ...
 ...
 
-
 Change.
 
 Formatting.
