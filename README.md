@@ -10,7 +10,6 @@ Another change
 
 ...
 ...
-
 Change.
 
 Formatting.
